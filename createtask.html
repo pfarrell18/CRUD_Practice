@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+    <body>
+        <form action="/createtask" method="POST">
+            <div>
+                <label>
+                    title
+                    <input name="title" id="title"/>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Have you finished this task?
+                    <input type="radio" id="task" name="task" value="true">
+                    <label for="done">task Completed</label>
+
+                    <input type="radio" id="task" name="task" value="false">
+                    <label for="notdone">task Not Completed</label>
+                </label>
+            </div>
+            <button type="submit" id="register-button">Create</button>
+        </form>
+        
+    </body>
+</html>

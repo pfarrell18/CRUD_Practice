@@ -1,0 +1,18 @@
+{
+  "name": "postgresql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:install": "createdb myawesomeapp && psql myawesomeapp < install.sql",
+    "db:seed": "psql myawesomeapp < seed.sql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg-promise": "^10.5.8"
+  },
+  "devDependencies": {},
+  "description": ""
+}
